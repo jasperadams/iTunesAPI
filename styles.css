@@ -1,0 +1,71 @@
+/* style all elements in the <body> */
+body {
+    font-family: sans-serif;
+    vertical-align: top;
+}
+
+/* style the element with the id “myId” */
+#myId {
+    color: yellow;
+}
+
+/*style all elements with the class “fontLarge” */
+.fontLarge{
+    font-size: 14px;
+}
+
+/* style all p elements with the class “center” */
+p.center {
+    text-align: center;
+    color: red;
+}
+
+/* style all h1, h2 and p elements */
+h1, h2, p {
+    text-align: right;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+th {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:hover {background-color: #ddd;}
+
+div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 2px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 2px;
+    cursor: pointer;
+}
+
+* {
+    font-family: courier;
+}
+
+.select {
+    background-color: darkgreen;
+    color: white;
+}

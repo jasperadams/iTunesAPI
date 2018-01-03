@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <title>iTunes API</title>
+    </head>
+    <body>
+        <img src="img/header.png"><br><br>
+        <label for="search">SEARCH: </label><input id="search">
+        <button class="button" id="submit">Submit</button>
+        <select class="select" title="num" id="num">
+            <option value="10">--Number of Results--</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="25">25</option>
+            <option value="50">50</option>
+        </select><br><br>
+    <table style="display:none" id="displayTable">
+        <tr>
+            <th width="120px">Artwork</th>
+            <th width="120px">Song</th>
+            <th width="120px">Artist</th>
+            <th width="120px">Album</th>
+        </tr></table>
+    </body>
+</html>
